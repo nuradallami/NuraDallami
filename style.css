@@ -1,0 +1,186 @@
+body {
+    margin: 0%;
+}
+.sitname h2 {
+    margin: 0%;
+    display: inline-block;
+}
+.nav {
+    border-bottom: 2px solid blue;
+    margin-top: 0%;
+    padding: 1% 2;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 0;
+    background-color: azure;
+}
+.nav_container {
+    position: relative;
+    background-color: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 5px;
+}
+.navigation_links {
+    float: right;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    font-size: 20px;
+    margin: auto 0%;
+    text-align: right;
+}
+.navigation_links a{
+    margin: auto 2%;
+}
+.section_one {
+    background-color: rgb(221, 209, 194);
+    text-align: center;
+    position: relative;
+    height: 100%;
+    padding: 4PX;
+    margin-top: 5vh;
+}
+
+.section_one h1 {
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section_one P {
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section_one P span {
+    text-decoration: underline;
+}
+.cloud_one, .cloud_two {
+    position: absolute;
+}
+.cloud_one {
+    top: 5%;
+    right: 15%;
+}
+.cloud_two {
+    bottom: 40%;
+    left: 20%;
+}
+/* section 2  all section*/
+.section_two {
+    padding: 5% 25%;
+}
+.profile_container {
+    text-align: center;
+}
+.profile_img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+.profile_container p {
+    width: 40%;
+    margin: 5% auto;
+}
+.skills_container h3 {
+    margin: 5% 0 7%;
+    text-align: center;
+}
+.skill_container img {
+    width: 50px;
+}
+.skill_one img, .skill_three img {
+    float: left;
+    margin: right 4%;
+}
+
+h5, h3, h1 {
+    color: border-style(182, 103, 103);
+    text-shadow: cyan;
+}
+    
+    background-color: rgb(182, 103, 103);
+    text-align: center;
+    position: relative;
+    padding: 5% 15%;
+}
+.skill_two img{
+    float: right;
+    margin-right: 3%;
+}
+a {
+    text-decoration: none;
+}
+.contact_me_container h5 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.contact_me_container h3 {
+    text-align: center;
+}
+.contact_me_container p {
+    margin-bottom: 5%;
+    text-align: center;
+}
+.contact_me_container a {
+    margin-left: 37%;
+    color: blanchedalmond;
+    background-color: blueviolet;
+    padding: 2% 4%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.contact_me_container a:hover {
+    background-color: beige;
+    color: aquamarine;
+}
+.links {
+    padding-top: 10px;
+    margin: 0 10px;
+    color: brown;
+    text-align: center;
+}
+.linkedin {
+    margin: 10px;
+}
+.footer {
+    height: 12vh;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 5%;
+}
+.footer p {
+    margin: 3% 0;
+    font-size: 0.8rem;
+    color: beige;
+    text-align: center;
+}
+h3, h5 {
+    color: brown;
+}
+h5 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+h3 {
+    font-size: 2.3rem;
+    font-weight: 600px;
+}
+hr {
+    border-style: dotted;
+    border-top: 0px;
+    border-width: 8px;
+    border-color: aqua;
+    width: 10%;
+    margin: 4px auto;
+    border-spacing: 2px;
+
+}
